@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>$SHT - SH*TCOIN on Vechain</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">$SHT | SHT on Vechain</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="Media/SHTbg.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Decentralized</h2>
+      <h3>Vechain's proprietary $SHT coin</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eligendi dolore alias quasi doloremque natus perspiciatis nesciunt adipisci neque! Sit sapiente repellat quia dolores repellendus facilis odit sed non eius!</p>
+      <a href="https://vexchange.io/swap" target="_blank">SWAP NOW</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="https://twitter.com/SHTcoinVET" target="_blank"><img src="media/twitter.png" alt=""></a></li>
+      <li><a href="t.me/shtstinks" target="_blank"><img src="media/telegram.png" alt=""></a></li>
+    </ul>
+
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Tokenomics</a></li>
+      <li><a href="#">Contracts</a></li>
+    </ul>
+
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () =>{
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
